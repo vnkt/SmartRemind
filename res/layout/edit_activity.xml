@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/linearLayout1" android:orientation="vertical">
+		<TextView android:id="@+id/Title" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Title" android:layout_weight="1"></TextView>
+		<EditText android:id="@+id/editTitle" android:layout_height="match_parent" android:layout_width="match_parent" android:layout_weight="1"></EditText>
+		<TextView android:id="@+id/Info" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Remainder Information" android:layout_weight="1"></TextView>
+		<EditText android:id="@+id/editInfo" android:layout_height="match_parent" android:layout_width="match_parent" android:layout_weight="1" android:minLines = "5"></EditText>
+		<Button android:layout_height="wrap_content" android:text="Click to select date" android:layout_weight="1" android:id="@+id/date" android:layout_width="match_parent" ></Button>
+		<Button android:layout_height="wrap_content" android:text="Click to select time" android:layout_weight="1" android:id="@+id/time" android:layout_width="match_parent" ></Button>
+		<QuickContactBadge android:layout_width="match_parent" android:id="@+id/quickContactBadge1" android:layout_height="wrap_content"></QuickContactBadge>
+		<CheckBox android:layout_width="match_parent" android:id="@+id/alertMe" android:layout_height="wrap_content" android:text="Alert me too"></CheckBox>					
+	</LinearLayout>
+</ScrollView>
+

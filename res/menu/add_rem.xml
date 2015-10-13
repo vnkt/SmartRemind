@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id = "@+id/addContact"
+		  android:icon="@android:drawable/ic_input_add"
+		  android:title = "@string/Save" />
+	<item android:id = "@+id/cancelAdd"
+		  android:icon="@android:drawable/ic_delete"
+		  android:title = "@string/Cancel" />	  
+</menu>
